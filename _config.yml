@@ -3,7 +3,7 @@ title: Médecin Généraliste Denis Fleurette
 description: "DR DENIS FLEURETTE cabinet médical"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: img/doctor_fleurette.png
 
 # Hero
 hero: 
@@ -34,7 +34,7 @@ testimonials:
 map:
     zoom: 17
     address: 4 Quai du Général de Gaulle, Résidence Le Riva, 30300 Beaucaire
-    address_details: svg/min/logo.svg
+    address_details: img/doctor_fleurette.png
 
 # Social settings
 facebook:
