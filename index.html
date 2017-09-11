@@ -14,9 +14,7 @@ layout: default
     </div>
 
     <div class="container-fluid">
-        
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-        </div>
+
 
     </div>
 </div>
@@ -26,16 +24,15 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
+        <h3>Contact</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Téléphone:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.emergency %}<li><strong>Urgence:</strong> {{ site.contact.emergency }}</li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
+        <h3>Heures de consultations</h3>
         <table>
             <tbody>
                 <tr>
@@ -47,7 +44,7 @@ layout: default
                     <td>{{ site.saturday }}</td>
                 </tr>
                 <tr>
-                    <td>Vednredi</td>
+                    <td>Vendredi</td>
                     <td>{{ site.sunday }}</td>
                 </tr>
             </tbody>
@@ -55,7 +52,7 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Location</h3>
+        <h3>Adresse</h3>
             <p>
                 {{ site.contact.address }}
             </p>
