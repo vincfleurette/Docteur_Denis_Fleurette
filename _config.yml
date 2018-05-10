@@ -2,7 +2,7 @@
 title: Médecin Généraliste Denis Fleurette
 description: "DR DENIS FLEURETTE cabinet médical"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://docteur.fleurette.me" # the name of your domain
+url: "https://docteur.fleurette.me" # the name of your domain
 logo_url: img/doctor_fleurette.png
 
 # Hero
